@@ -2,9 +2,11 @@ package .com.example.demo.entity;
 
 import java.time.location;
 
-import jakarta
+import jakarta.persistence.Entity;
+import jakarta.persistance.Id;
 @Entity
-public class student {
+public class Student {
+    @Id
     private long id;
     private String name;
     private String dept;
