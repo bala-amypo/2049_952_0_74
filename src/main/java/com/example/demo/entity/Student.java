@@ -8,13 +8,20 @@ public class student {
     private String dept;
     private LocalDtae dob;
     private float cgpa;
-    public long getId{
+    public Long getId{
         return id;
 
     }
-    public voidsetid(long id){
+    public voidsetid(Long id){
         this.id=id;
 
+    }
+    public String getName(){
+        return name;
+
+    }
+    public void setName(String name){
+        this.id=id;
     }
 
 }
