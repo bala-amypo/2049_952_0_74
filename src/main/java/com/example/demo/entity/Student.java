@@ -2,6 +2,8 @@ package .com.example.demo.entity;
 
 import java.time.location;
 
+import jakarta
+@Entity
 public class student {
     private long id;
     private String name;
@@ -45,5 +47,14 @@ public class student {
     }
     public void setcgpa(String cgpa){
         this.cgpa=cgpa;
+        public Student(){
+
+        }
+        public Student(Long id,String name,string dept,Localdate dob,float cgpa)
+            this.
+            this.id=id;
+
+                       
+
 
 }
