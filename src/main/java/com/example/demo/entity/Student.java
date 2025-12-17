@@ -57,10 +57,10 @@ public class Student {
 
         }
         public Student(Long id,String name,string dept,Localdate dob,float cgpa)
-            this.
             this.id=id;
-
-                       
-
+            this.name=name;
+            this.dept=dept;
+            this.date=date;
+            this.cgpa=cgpa;
 
 }
