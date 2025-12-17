@@ -8,5 +8,13 @@ public class student {
     private String dept;
     private LocalDtae dob;
     private float cgpa;
+    public long getId{
+        return id;
+
+    }
+    public voidsetid(long id){
+        this.id=id;
+
+    }
 
 }
