@@ -1,8 +1,15 @@
-package com.example.demo.service;
+package com.example.demo.service.impl;
+
+import org.springframe.stereotype.Service;
 
 import com.example.demo.entity.Student;
+import com.example.demo.service.StudentService;
 
-public interface StudentService {
-    Student poststudent(Student st);
+@service
+public class StudentServiceImpl implements StudentService{
+    @Override
+    public Student poststudent(Student st){
+
+    }
 }
 
