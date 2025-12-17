@@ -31,12 +31,19 @@ public class student {
     public void setDept(String dept){
         this.dept=dept;
     }
-    public LocalDate getName(){
-        return name;
+    public LocalDate getdob(){
+        return dob;
 
     }
-    public void setName(String name){
-        this.name=name;
+    public void setDob(String dob){
+        this.dob=dob;
+
     }
+    public floatcgpa getcgpa(){
+        return cgpa;
+
+    }
+    public void setcgpa(String cgpa){
+        this.cgpa=cgpa;
 
 }
